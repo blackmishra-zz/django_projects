@@ -19,3 +19,11 @@ git branch change_v1
 
 to switch to that branch
 git checkout change_v1
+
+to merge changes in to master
+git checkout master
+git merge change_v1
+
+Now to delete that other branch
+git branch -D change_v1
+
