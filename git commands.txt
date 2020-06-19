@@ -29,3 +29,4 @@ git merge change_v1
 Now to delete that other branch
 git branch -D change_v1
 
+To push changes to remote[Github]
