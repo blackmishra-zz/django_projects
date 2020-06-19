@@ -1,0 +1,21 @@
+ls
+cd
+git init
+git remote add origin [gitLink]
+git remote -v
+git add .
+git commit -m "First commit"
+git push origin master
+
+
+Run  For tell me who you are error
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+Navigate to actual project folder using cd
+then to add a branch
+git branch change_v1
+
+to switch to that branch
+git checkout change_v1
