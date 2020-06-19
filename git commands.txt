@@ -14,13 +14,15 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 
 Navigate to actual project folder using cd
-then to add a branch
-git branch change_v1
 
-to switch to that branch
+To commit changes
+git add -all
+git commit -m "Third commit"
+
+To switch to that branch
 git checkout change_v1
 
-to merge changes in to master
+To merge changes in to master
 git checkout master
 git merge change_v1
 
